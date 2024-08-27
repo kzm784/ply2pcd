@@ -15,55 +15,55 @@ Before building the project, make sure you have the following dependencies insta
 
 You can install PCL using the following commands:
 
-\`\`\`bash
+```bash
 sudo apt-get update
 sudo apt-get install libpcl-dev
-\`\`\`
+```
 
 ### Building the Project
 
 1. **Clone the repository:**
 
-   \`\`\`bash
+  ```bash
    git clone https://github.com/yourusername/ply2pcd.git
    cd ply2pcd
-   \`\`\`
+  ```
 
 2. **Create a build directory and navigate to it:**
 
-   \`\`\`bash
+  ```bash
    mkdir build
    cd build
-   \`\`\`
+  ```
 
 3. **Run CMake to configure the project:**
 
-   \`\`\`bash
+   ```bash
    cmake ..
-   \`\`\`
+   ```
 
 4. **Build the project:**
 
-   \`\`\`bash
+   ```bash
    make
-   \`\`\`
+   ```
 
 ### Running the Program
 
 After successfully building the project, you can run the program using the following command:
 
-\`\`\`bash
+```bash
 ./ply2pcd -format [0|1] /path/to/input.ply /path/to/output.pcd
-\`\`\`
+```
 
-- \`-format [0|1]\`: Specifies the output format. Use \`0\` for ASCII and \`1\` for binary (default is binary).
-- \`/path/to/input.ply\`: Replace with the path to your input PLY file.
-- \`/path/to/output.pcd\`: Replace with the desired output path for the PCD file.
+- `-format [0|1]`: Specifies the output format. Use `0` for ASCII and `1` for binary (default is binary).
+- `/path/to/input.ply`: Replace with the path to your input PLY file.
+- `/path/to/output.pcd`: Replace with the desired output path for the PCD file.
 
 ### Example
 
 Here is an example command to convert a PLY file to a PCD file in binary format:
 
-\`\`\`bash
+```bash
 ./ply2pcd -format 1 example.ply example.pcd
-\`\`\`
+```
