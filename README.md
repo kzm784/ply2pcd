@@ -1,5 +1,5 @@
 
-# ply2pcd ( PLY to PCD Converter )
+# ply2pcd
 
 This project provides a C++ program that converts PLY files to PCD files using the Point Cloud Library (PCL).
 
