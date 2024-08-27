@@ -25,7 +25,7 @@ sudo apt-get install libpcl-dev
 1. **Clone the repository:**
 
   ```bash
-   git clone https://github.com/yourusername/ply2pcd.git
+   git clone https://github.com/kzm784/ply2pcd.git
    cd ply2pcd
   ```
 
