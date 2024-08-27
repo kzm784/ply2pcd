@@ -53,6 +53,7 @@ sudo apt-get install libpcl-dev
 After successfully building the project, you can run the program using the following command:
 
 ```bash
+# in your build directory
 ./ply2pcd -format [0|1] /path/to/input.ply /path/to/output.pcd
 ```
 
